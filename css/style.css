@@ -1,0 +1,18 @@
+/* Header */
+#brandLogo{
+  font-size: 2.8rem;
+  }
+
+
+/* Main Body */
+#mainContainer img{
+    width: 100%;
+    height: 650px;
+}
+
+.homeDesc {
+  text-align: center;
+  font-size: 4.5rem;
+  padding: 5rem 0px;
+  text-transform: uppercase;
+}
