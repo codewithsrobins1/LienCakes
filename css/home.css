@@ -1,0 +1,57 @@
+body{
+  font: 'Cookie', cursive;
+}
+
+/* Header */
+#brandLogo{
+  font-size: 2.8rem;
+  }
+
+#navbarNav a{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+/* Main Body */
+.homeDesc {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5rem;
+  font-size: 4rem;
+  letter-spacing: .5rem;
+}
+
+#mainContainer img{
+    width: 100%;
+    height: 700px;
+}
+
+#mainContainer button {
+  margin-top: 6rem;
+  padding: 2rem 5rem;
+  font-size: 2rem;
+}
+
+/* Location and Hours */
+.store{
+  margin: 5rem 0px;
+}
+
+.storeHours, .location {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.location {
+  font-weight: bold;
+}
+
+
+/* Copyright */
+#copyright {
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin-top: 15rem;
+}
