@@ -15,62 +15,50 @@ body{
   font-size: 1.5rem;
 }
 
-
-/* Main Body */
-.homeDesc {
-  text-align: center;
-  text-transform: uppercase;
-  padding: 5rem;
-  font-size: 4rem;
-  letter-spacing: .5rem;
-}
-
+/* Main Container */
 #mainContainer img{
-    width: 100%;
-    height: 700px;
-}
-
-#mainContainer button {
-  margin-top: 6rem;
-  padding: 2rem 5rem;
-  font-size: 2rem;
-}
-
-/* Location and Hours */
-.store{
+  width: 100%;
+  height: 50vh;
   margin: 5rem 0px;
 }
 
-.storeHours, .location {
-  font-size: 2.5rem;
+#aboutDesc{
+  font-size: 2rem;
   text-align: center;
+  margin-bottom: 5rem;
 }
 
-.location {
-  font-weight: bold;
+.homeDesc{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3rem;
+  font-size: 4rem;
+  letter-spacing: .5rem;
 }
-
 
 /* Copyright */
 #copyright {
   text-align: center;
   font-size: 2.0rem;
   font-weight: bold;
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
-
 
 /* Media Queries */
 /* iPad */
 @media only screen and (min-device-width: 768px){
   #mainContainer img{
-      width: 100%;
-      height: 750px;
+    width: 100%;
+    height: 60vh;
+    margin: 4rem 0px;
   }
-  /* Location and Hours */
-  .storeHours, .location {
-    font-size: 2.5rem;
+
+  .homeDesc{
     text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    font-size: 4rem;
+    letter-spacing: .5rem;
   }
 }
 
@@ -78,17 +66,12 @@ body{
 /* Laptops */
 @media only screen and (min-device-width: 1200px){
   #mainContainer img{
-      width: 100%;
-      height: 600px;
+    width: 100%;
+    height: 55rem;
+    margin: 4rem 0px;
   }
 
   /* Footer */
-  #copyright {
-    text-align: center;
-    font-size: 2.0rem;
-    font-weight: bold;
-    margin-top: 10rem;
-  }
 }
 
 /* Desktop Monitors */
