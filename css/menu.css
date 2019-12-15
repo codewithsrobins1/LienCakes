@@ -1,0 +1,34 @@
+body{
+  font-family: 'Handlee', cursive;
+  background-color: #fff7f8;
+  color: #b666d3;
+  /* Navy - 001f3f */
+}
+
+/* Header */
+#brandLogo{
+  font-size: 3.5rem;
+  }
+
+#navbarNav a{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Main Body Container */
+#mainContainer{
+    width: 100%;
+    height: 400px;
+    margin: 5rem 0px;
+}
+
+/* Cake Container */
+.cakeImg{
+  width: 100%;
+  height: 350px;
+}
+
+
+hr{
+  margin: 5rem 0px;
+}
