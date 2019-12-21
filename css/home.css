@@ -15,6 +15,10 @@ body{
   font-size: 1.5rem;
 }
 
+nav a{
+  color: #b666d3 !important;
+  transition: .3s;
+}
 
 /* Main Body */
 .homeDesc {
@@ -34,6 +38,19 @@ body{
   margin-top: 6rem;
   padding: 2rem 5rem;
   font-size: 2rem;
+}
+
+#menuBtn{
+  color: #b666d3;
+  border-color: #b666d3;
+  transition: .3s;
+}
+
+#menuBtn:hover{
+  color: #fff;
+  background-color: #b666d3;
+  border-color: #b666d3;
+  transform: scale(1.1);
 }
 
 /* Location and Hours */

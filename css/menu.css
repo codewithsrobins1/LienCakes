@@ -15,6 +15,10 @@ body{
   font-size: 1.5rem;
 }
 
+nav a{
+  color: #b666d3 !important;
+}
+
 /* Main Body Container */
 #mainContainer{
     width: 100%;
@@ -22,10 +26,36 @@ body{
     margin: 5rem 0px;
 }
 
+/* Menu Container */
+.menuContainer{
+  margin: 4rem 0px;
+}
+
 /* Cake Container */
+.homeDesc{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: .5rem;
+}
 .cakeImg{
   width: 100%;
   height: 350px;
+}
+
+#menuBtn{
+  color: #fff;
+  background-color: #b666d3;
+  border-color: #b666d3;
+  transition: .3s;
+}
+
+#menuBtn:hover{
+  color: #b666d3;
+  background-color: #fff;
+  border-color: #b666d3;
+  transform: scale(1.1);
 }
 
 
@@ -73,6 +103,11 @@ hr{
     width: 70%;
     margin: auto;
   }
+
+  /* Menu Container */
+  .menuContainer{
+    margin: 5rem 0px;
+  }
 }
 
 /* Desktop Monitors */
@@ -80,5 +115,10 @@ hr{
   #allergy{
     width: 70%;
     margin: auto;
+  }
+
+  /* Menu Container */
+  .menuContainer{
+    margin: 5rem 0px;
   }
 }

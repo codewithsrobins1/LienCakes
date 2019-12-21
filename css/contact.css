@@ -15,6 +15,10 @@ body{
   font-size: 1.5rem;
 }
 
+nav a{
+  color: #b666d3 !important;
+}
+
 /* Main Body Container */
 #mainContainer{
     width: 100%;
