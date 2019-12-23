@@ -20,6 +20,14 @@ nav a{
   transition: .3s;
 }
 
+.navBtmBorder{
+  transition: .3s;
+}
+
+.navBtmBorder:hover{
+  border-bottom: 2px solid #b666d3;
+}
+
 /* Main Body */
 .homeDesc {
   text-align: center;
