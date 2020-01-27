@@ -1,8 +1,9 @@
 body{
-  font-family: 'Handlee', cursive;
-  background-color: #fff7f8;
-  color: #b666d3;
-  /* Navy - 001f3f */
+  font-family: 'Concert One', cursive;
+  background-image: linear-gradient(#ffdde1,#ee9ca7);
+  color: #fff;
+  font-weight: 800;
+  text-shadow: 1px 2px 0px rgba(0,0,0,0.1);
 }
 
 /* Header */
@@ -10,13 +11,27 @@ body{
   font-size: 3.5rem;
   }
 
+#brandLogo img{
+  width: 1.5em;
+  height: 1.5em;
+}
+
 #navbarNav a{
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 nav a{
-  color: #b666d3 !important;
+  color: #fff !important;
+}
+
+.nav-link{
+  transition: .3s;
+  border-bottom: 2px transparent;
+}
+
+.nav-link:hover{
+  border-bottom: 2px solid #fff;
 }
 
 /* Main Body Container */
@@ -29,6 +44,18 @@ nav a{
 /* Menu Container */
 .menuContainer{
   margin: 4rem 0px;
+}
+
+.menuIngredients{
+  font-size: 1.4em;
+}
+
+.menuName{
+  font-size: 2.5em;
+}
+
+.menuDescription{
+  font-size: 1.3em;
 }
 
 /* Cake Container */
@@ -45,17 +72,20 @@ nav a{
 }
 
 #menuBtn{
-  color: #fff;
-  background-color: #b666d3;
-  border-color: #b666d3;
+  margin-top: 2rem;
+  padding: 2rem 3rem;
+  font-size: 2rem;
+  color: #FFF;
+  border-color: #DD5E89;
+  background-color: #DD5E89;
   transition: .3s;
 }
 
 #menuBtn:hover{
-  color: #b666d3;
-  background-color: #fff;
-  border-color: #b666d3;
-  transform: scale(1.1);
+  color: #fff;
+  background-color: #DD5E89;
+  border-color: #DD5E89;
+  transform: scale(1.05);
 }
 
 
