@@ -1,6 +1,6 @@
 # Lien Cakes
 
-Fictional cake shop made using Bootstrap. Website highlights many different speciality cakes.
+Fictional cake shop made using Bootstrap. Website highlights many different specialty cakes.
 
 ## Link to Live Site
 
