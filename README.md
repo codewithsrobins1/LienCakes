@@ -2,7 +2,9 @@
 
 Fictional cake shop made using Bootstrap. Website highlights many different specialty cakes.
 
-## Link to Live Site
+## Screenshot
+
+![photo-of-game](https://github.com/codewithsrobins1/card-dealer-app/blob/master/readMeImg.PNG?raw=true)
 
 ### Built With
 
