@@ -4,7 +4,7 @@ Fictional cake shop made using Bootstrap. Website highlights many different spec
 
 ## Screenshot
 
-![photo-of-game](https://github.com/codewithsrobins1/card-dealer-app/blob/master/readMeImg.PNG?raw=true)
+![photo-of-game](https://github.com/codewithsrobins1/LienCakes/blob/master/readMeImg.PNG?raw=true)
 
 ### Built With
 
