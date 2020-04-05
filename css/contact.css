@@ -8,7 +8,7 @@ body{
 
 /* Header */
 #brandLogo{
-  font-size: 3.0rem;
+  font-size: 2.5em;
 }
 
 #brandLogo img{
@@ -51,9 +51,9 @@ nav a{
 .homeDesc{
   text-align: center;
   text-transform: uppercase;
-  padding: 3rem;
-  font-size: 3rem;
-  letter-spacing: .5rem;
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+  letter-spacing: .3rem;
 }
 
 /* Copyright Footer */
@@ -62,8 +62,9 @@ nav a{
   left: 0;
   width: 100%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
+  margin-top: 3rem;
 }
 
 
@@ -75,6 +76,10 @@ nav a{
       height: auto;
       max-height: 28em;
       margin: 2rem 0px;
+  }
+
+  .homeDesc{
+    padding: 2rem;
   }
 }
 
