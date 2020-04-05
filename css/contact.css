@@ -2,14 +2,14 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
   background-image: linear-gradient(#D66D75,#ee9ca7);
   color: #fff;
-  font-weight: 800;
+  font-weight: 500;
   text-shadow: 1px 2px 0px rgba(0,0,0,0.1);
 }
 
 /* Header */
 #brandLogo{
-  font-size: 3.5rem;
-  }
+  font-size: 3.0rem;
+}
 
 #brandLogo img{
   width: 1.5em;
@@ -23,6 +23,7 @@ body{
 
 nav a{
   color: #fff !important;
+  transition: .3s;
 }
 
 .nav-link{

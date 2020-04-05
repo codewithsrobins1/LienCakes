@@ -2,7 +2,7 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
   background-image: linear-gradient(#D66D75,#ee9ca7);
   color: #fff;
-  font-weight: 800;
+  font-weight: 500;
   text-shadow: 1px 2px 0px rgba(0,0,0,0.1);
 }
 
@@ -51,8 +51,8 @@ nav a{
 
 #mainContainer button {
   margin-top: 6rem;
-  padding: 2rem 3rem;
-  font-size: 2rem;
+  padding: 1.2rem 2.3rem;
+  font-size: 1.7rem;
 }
 
 #menuBtn{
@@ -68,11 +68,11 @@ nav a{
 
 /* Location and Hours */
 .store{
-  margin: 5rem 0px;
+  margin: 2rem 0px;
 }
 
 .storeHours, .location {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -84,7 +84,7 @@ nav a{
 /* Copyright */
 #copyright {
   text-align: center;
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-top: 15rem;
 }
@@ -105,7 +105,7 @@ nav a{
   }
   /* Location and Hours */
   .storeHours, .location {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 }
@@ -131,7 +131,7 @@ nav a{
 @media only screen and (min-device-width: 1920px){
   #copyright {
     text-align: center;
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 10rem;
   }
