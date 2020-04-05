@@ -74,7 +74,7 @@ nav a{
   #mainContainer{
       width: 100%;
       height: auto;
-      max-height: 28em;
+      max-height: 400px;
       margin: 2rem 0px;
   }
 
@@ -92,6 +92,13 @@ nav a{
     font-weight: bold;
     margin-top: 5em;
   }
+
+  #mainContainer{
+    width: 100%;
+    height: auto;
+    max-height: 550px;
+    margin: 2rem 0px;
+}
 }
 
 /* Desktop Monitors */

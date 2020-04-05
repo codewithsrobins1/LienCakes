@@ -8,7 +8,7 @@ body{
 
 /* Header */
 #brandLogo{
-  font-size: 3.0rem;
+  font-size: 2.5em;
 }
 
 #brandLogo img{
@@ -39,20 +39,20 @@ nav a{
 .homeDesc {
   text-align: center;
   text-transform: uppercase;
-  padding: 5rem;
-  font-size: 3rem;
+  padding: 3rem 0px;
+  font-size: 1.4rem;
   letter-spacing: .5rem;
 }
 
 #mainContainer img{
     width: 100%;
-    height: 700px;
+    height: auto;
 }
 
 #mainContainer button {
-  margin-top: 6rem;
-  padding: 1.2rem 2.3rem;
-  font-size: 1.7rem;
+  margin-top: 4rem;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
 }
 
 #menuBtn{
@@ -72,7 +72,7 @@ nav a{
 }
 
 .storeHours, .location {
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -84,11 +84,10 @@ nav a{
 /* Copyright */
 #copyright {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
-
 
 /* Media Queries */
 /* iPad */
@@ -101,7 +100,7 @@ nav a{
 
   #mainContainer img{
       width: 100%;
-      height: 750px;
+      height: auto;
   }
   /* Location and Hours */
   .storeHours, .location {
@@ -115,7 +114,16 @@ nav a{
 @media only screen and (min-device-width: 1200px){
   #mainContainer img{
       width: 100%;
-      height: 600px;
+      height: auto;
+      max-height: 500px;
+  }
+
+  .homeDesc {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5rem 0px;
+    font-size: 3em;
+    letter-spacing: .5rem;
   }
 
   /* Footer */

@@ -8,7 +8,7 @@ body{
 
 /* Header */
 #brandLogo{
-  font-size: 3.0rem;
+  font-size: 2.0em;
 }
 
 #brandLogo img{
@@ -48,34 +48,35 @@ nav a{
 }
 
 .menuIngredients{
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .menuName{
-  font-size: 2.2em;
+  font-size: 1.5em;
 }
 
 .menuDescription{
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 /* Cake Container */
 .homeDesc{
   text-align: center;
   text-transform: uppercase;
-  padding: 3rem;
-  font-size: 2.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
   letter-spacing: .5rem;
 }
+
 .cakeImg{
   width: 100%;
-  height: 350px;
+  height: auto;
 }
 
 #menuBtn{
   margin-top: 2rem;
-  padding: 1.2rem 2.3rem;
-  font-size: 1.7rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
   color: #FFF;
   border-color: #DD5E89;
   background-color: #DD5E89;
@@ -105,20 +106,28 @@ hr{
 }
 
 #allergy p {
-  font-size: 1.7rem;
+  font-size: 1.1rem;
 }
 
 /* Copyright */
 #copyright {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 10rem;
 }
 
 /* Media Queries */
 /* iPad */
 @media only screen and (min-device-width: 768px){
+  .cakeImg{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+  }
 
+  .homeDesc{
+    font-size: 1.8rem;
+  }
 }
 
 
@@ -126,12 +135,42 @@ hr{
 @media only screen and (min-device-width: 1200px){
   .cakeImg{
     width: 100%;
-    height: 450px;
+    height: auto;
+    max-height: 450px;
+  }
+
+  .homeDesc{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 3.3rem;
+    letter-spacing: .5rem;
+  }
+
+  .menuIngredients{
+    font-size: 1.3em;
+  }
+  
+  .menuName{
+    font-size: 2.5em;
+  }
+  
+  .menuDescription{
+    font-size: 1.3em;
   }
 
   #allergy{
     width: 70%;
     margin: auto;
+  }
+
+  #allergy h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  #allergy p {
+    font-size: 1.3rem;
   }
 
   /* Menu Container */
